@@ -1,0 +1,32 @@
+{
+  "name": "rocatest",
+  "version": "1.0.0",
+  "dependencies": {
+    "asn1js": "^2.0.15",
+    "big-integer": "latest",
+    "mocha": "^4.0.1",
+    "pkijs": "^2.0.67",
+    "pvutils": "latest"
+  },
+  "description": "Test RSA keys for the ROCA vulnerability",
+  "main": "rocatest.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fotisl/rocatest.git"
+  },
+  "keywords": [
+    "pki",
+    "x509",
+    "roca",
+    "vulnerability"
+  ],
+  "author": "Fotis Loukos <me@fotisl.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/fotisl/rocatest/issues"
+  },
+  "homepage": "https://github.com/fotisl/rocatest#readme"
+}
